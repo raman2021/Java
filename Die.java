@@ -1,10 +1,14 @@
-//package dicegame;
+/* Name- Ramandeep kaur
+Student id- A00244354
+program description- Representing classes and objects in dicegame program
+
+*/
 
 import java.util.Random;
 
 class Die {
-    int add_1 = 1;
-    private Random random = new Random();
+    int add_1 = 1; // creating integar value
+    private Random random = new Random(); 
     String  d20_dice_type; // store dice type that user enters
     private int current_value //store current value of default d6 dice
             ,dice_sides; // default dice d6 sides
@@ -55,8 +59,8 @@ class Die {
     public String d20_roll_method(){
         String new_value;
         int random_value = random.nextInt(dice_sides)+add_1;
-        
-        if(random_value == dice_sides){
+        // using loop statement to met with conditions
+        if(random_value == dice_sides){ //if else loop statement
         new_value = "\nYAY! It's a: "+random_value;    
         }else{
         new_value = "\nThe new value is: "+random_value;
@@ -69,7 +73,7 @@ class Die {
     public String max_value(){
         int max_value=0;
             
-        while(max_value != dice_sides){
+        while(max_value != dice_sides){ // while statement
             max_value = (random.nextInt(dice_sides)+add_1);
         }
 

@@ -1,12 +1,17 @@
-//package dicegame;
+/* Name- Ramandeep kaur
+Student id- A00244354
+program description- Representing classes and objects in dicegame program
+
+*/
+
 
 public class DiceGame {
-    public static void main(String args[]) {
-        int total_sides = 20;
+    public static void main(String args[]) { // main method
+        int total_sides = 20; // creating integar variable
         String type_of_dice= "d20",d6_current_value,d20_current_value, percentile_current_value
-                ,d6_new_value,d20_new_value,percentile_new_value;
+                ,d6_new_value,d20_new_value,percentile_new_value; // creating string type
         
-        System.out.print("\n******** CREATING DICE *******\n");
+        System.out.print("\n******** CREATING DICE *******\n"); // printing statements
         System.out.print("\nCreating a default d6...");
         System.out.print("\nCreating a "+type_of_dice+"...");
         System.out.print("\nCreating a percentile die (a special d10)...\n");
