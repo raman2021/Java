@@ -5,9 +5,7 @@ Program discription- Representing data into units of measurements
 
 */
 
-import java.util.Scanner;
-
-public class Lab2{
+import java.util.Scanner;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       public class Lab2{
 	
 	public static void main(String args[]){
 		// taking a value from user
@@ -107,7 +105,8 @@ public class Lab2{
 		}
 		else {
 			System.out.println(" error ");
-		}
+	}
 		
 	}
-}
+   }
+ 
